@@ -23,7 +23,7 @@ export default function Home() {
  
   return (
     <div>
-  <SuggestionCat button = {suggestionButtonCat} filter = {filter}/>
+        <SuggestionCat button = {suggestionButtonCat} filter = {filter}/>
         <Feedbacks menuItem = {menuItem} />
     </div>
   )
