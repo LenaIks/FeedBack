@@ -42,6 +42,7 @@ return (
                     return (
                         <RoadMapCard
                             key={`feedback${index}`}
+                            statusColor={"d--planned"}
                             status={item.status}
                             title={item.title}
                             description={item.description}
@@ -63,6 +64,7 @@ return (
                     return (
                         <RoadMapCard
                             key={`feedback${index}`}
+                            statusColor={"d--planned"}
                             status={item.status}
                             title={item.title}
                             description={item.description}
@@ -84,6 +86,7 @@ return (
                     return (
                         <RoadMapCard
                             key={`feedback${index}`}
+                            statusColor={"d--planned"}
                             status={item.status}
                             title={item.title}
                             description={item.description}
